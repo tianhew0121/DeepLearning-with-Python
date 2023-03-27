@@ -1,5 +1,4 @@
 import numpy as np
-import h5py
 
 class NeuralNetwork(object):
     def __init__(self):
@@ -144,6 +143,7 @@ class NeuralNetwork(object):
 
 if __name__ == '__main__':
     from sklearn.model_selection import train_test_split
+    import h5py
 
     
     train_data_path = "data/mnist_traindata.hdf5"
